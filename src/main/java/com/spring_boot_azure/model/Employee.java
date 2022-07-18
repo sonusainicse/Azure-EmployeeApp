@@ -27,25 +27,12 @@ public class Employee {
 		
 		@Column(name="salary")
 		private long salary;
-		
-		public long getSalary() {
-			return salary;
-		}
-
-		public void setSalary(long salary) {
-			this.salary = salary;
-		}
-
-		public String getDepartment() {
-			return department;
-		}
-
-		public void setDepartment(String department) {
-			this.department = department;
-		}
+	
 		@Column(name="department")
 		private String department;
 
+		
+	
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -70,5 +57,21 @@ public class Employee {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	public long getSalary() {
+		return salary;
+	}
+
+	public void setSalary(long salary) {
+		this.salary = salary;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 	}
