@@ -25,12 +25,6 @@ public class Employee {
 		@Column(name="email")
 		private String email;
 		
-		@Column(name="salary")
-		private long salary;
-	
-		@Column(name="department")
-		private String department;
-
 		
 	
 	public void setId(long id) {
@@ -59,19 +53,4 @@ public class Employee {
 		this.email = email;
 	}
 	
-	public long getSalary() {
-		return salary;
-	}
-
-	public void setSalary(long salary) {
-		this.salary = salary;
-	}
-
-	public String getDepartment() {
-		return department;
-	}
-
-	public void setDepartment(String department) {
-		this.department = department;
-	}
 	}
